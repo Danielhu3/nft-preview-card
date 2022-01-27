@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  --main-bg-dark-blue: hsl(217, 54%, 11%);
+  --card-bg-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--main-bg-dark-blue);
+
+  display: flex;
+
+  height: 100vh;
+  width: 100vw;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.card {
+  background-color: var(--card-bg-dark-blue);
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+
+  border-radius: 2rem;
+}
+
+#equilibrium-image {
+  display: flex;
+  margin: 1.6rem 1.6rem 2.4rem 1.6rem;
+}
+
+#title {
+  font-weight: 600;
+  font-size: 2.2rem;
+
+  padding: 0rem 1.6rem 1.6rem 1.6rem;
+
+  color: var(--white);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  padding: 0 1.6rem 1.6rem 1.6rem;
+
+  color: var(--soft-blue);
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.left-content,
+.right-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ethereum-icon {
+  margin: 0 0.5rem 0 1.6rem;
+}
+
+.time-left {
+  margin: 0 1.6rem 0 0.5rem;
+}
+
+.ethereum-value {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--cyan);
+}
+
+.time-left {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--soft-blue);
+}
+.line {
+  margin: 1.6rem;
+  height: 1px;
+  background-color: var(--line-dark-blue);
+  text-align: center;
+}
+
+/* check class bottom-content*/
+.bottom-content {
+  display: flex;
+}
+
+.bottom-content .avatar {
+  margin: 0 1.6rem 1.6rem;
+  width: 3.2rem;
+  border: solid 1px var(--white);
+  border-radius: 2rem;
+}
+
+.bottom-content .creator-text {
+  margin: 0.8rem 0.5rem 1.6rem 0;
+
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: var(--soft-blue);
+}
+
+.bottom-content .creator-name {
+  margin: 0.8rem 0 1.6rem 0;
+
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: var(--white);
+}
