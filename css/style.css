@@ -53,6 +53,7 @@ body {
 .equilibrium-image {
   display: flex;
   margin: 1.6rem 1.6rem 2.4rem 1.6rem;
+  cursor: pointer;
 }
 
 .title {
@@ -148,8 +149,6 @@ body {
 }
 
 .equilibrium-image:hover {
-  cursor: pointer;
-
   filter: opacity(0.7) drop-shadow(0 0 0 var(--cyan));
 
   position: relative;
