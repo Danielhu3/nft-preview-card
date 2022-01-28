@@ -166,3 +166,15 @@ body {
 .eye-icon {
   display: none;
 }
+
+/* end of active states */
+
+/* responsivity */
+
+@media only screen and (max-width: 375px) {
+  .card {
+    margin: 8.5rem 2.7rem 8.5rem 2.8rem;
+
+    width: 90vw;
+  }
+}
