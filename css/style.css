@@ -50,12 +50,12 @@ body {
   border-radius: 2rem;
 }
 
-#equilibrium-image {
+.equilibrium-image {
   display: flex;
   margin: 1.6rem 1.6rem 2.4rem 1.6rem;
 }
 
-#title {
+.title {
   font-weight: 600;
   font-size: 2.2rem;
 
@@ -113,7 +113,6 @@ body {
   text-align: center;
 }
 
-/* check class bottom-content*/
 .bottom-content {
   display: flex;
 }
@@ -139,4 +138,11 @@ body {
   font-weight: 300;
   font-size: 1.2rem;
   color: var(--white);
+}
+
+/* active state*/
+
+.title:hover,
+.creator-name:hover {
+  color: var(--cyan);
 }
