@@ -159,8 +159,11 @@ body {
   display: inline-block;
   position: absolute;
 
+  /*
   padding-left: 14rem;
   padding-top: 14rem;
+  */
+  padding: 14rem;
 }
 
 .eye-icon {
@@ -176,5 +179,9 @@ body {
     margin: 8.5rem 2.7rem 8.5rem 2.8rem;
 
     width: 90vw;
+  }
+
+  .eye-icon.visible {
+    display: none;
   }
 }
