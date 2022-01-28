@@ -146,3 +146,23 @@ body {
 .creator-name:hover {
   color: var(--cyan);
 }
+
+.equilibrium-image:hover {
+  cursor: pointer;
+
+  filter: opacity(0.7) drop-shadow(0 0 0 var(--cyan));
+
+  position: relative;
+}
+
+.eye-icon.visible {
+  display: inline-block;
+  position: absolute;
+
+  padding-left: 14rem;
+  padding-top: 14rem;
+}
+
+.eye-icon {
+  display: none;
+}
