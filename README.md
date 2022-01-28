@@ -23,5 +23,5 @@ To start the project, just open the file `index.html` in your preferred browser.
 
 ## Author
 
-- Linkedin - [Linkedin](https://www.linkedin.com/in/danielbarbosadefreitas/)
+- Linkedin - [Daniel Barbosa](https://www.linkedin.com/in/danielbarbosadefreitas/)
 - Frontend Mentor - [@Danielhu3](https://www.frontendmentor.io/profile/Danielhu3)
