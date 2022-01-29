@@ -1,6 +1,6 @@
 // get variables
-let equilibriumImage = document.querySelector('.equilibrium-image')
-let eyeIcon = document.querySelector('.eye-icon')
+let equilibriumImage = document.querySelector('.card__image')
+let eyeIcon = document.querySelector('.card__eye-icon')
 
 function addClass() {
   eyeIcon.classList.add('visible')
