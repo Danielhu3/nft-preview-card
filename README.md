@@ -15,6 +15,7 @@ This is a solution to the [NFT preview card component challenge hub](https://www
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- BEM (Block, Element, Modifier)
 - JavaScript
 
 ## 🚀 Starting
